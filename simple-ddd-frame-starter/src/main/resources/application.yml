@@ -1,0 +1,31 @@
+distributed:
+  cache:
+    type: redis
+  lock:
+    type: redisson
+
+redis:
+  arrange:
+    type: single
+
+spring:
+
+  flyway:
+    enabled: true
+    clean-disabled: true
+    baseline-on-migrate: true
+    table: schema_history
+    locations: migration
+
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    lettuce:
+      pool:
+        max-idle: 8
+        max-wait: -1
+        max-active: 8
+        min-idle: 0
+    timeout: 30000
+    address: redis://127.0.0.1:6379
+
