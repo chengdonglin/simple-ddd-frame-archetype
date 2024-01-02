@@ -34,6 +34,7 @@
         <rocketmq.version>4.9.3</rocketmq.version>
         <rocketmq.boot.version>2.2.2</rocketmq.boot.version>
         <redisson.version>3.16.3</redisson.version>
+        <jwt.version>3.4.0</jwt.version>
     </properties>
 
     <dependencies>
@@ -180,6 +181,11 @@
                 <version>${redisson.version}</version>
             </dependency>
 
+            <dependency>
+                <groupId>com.auth0</groupId>
+                <artifactId>java-jwt</artifactId>
+                <version>${jwt.version}</version>
+            </dependency>
 
 
         </dependencies>
