@@ -1,6 +1,6 @@
 # springboot脚手架
 
-    快速搭建基本环境工程的脚手架
+    快速搭建基本环境工程
 
 ## 简洁类似DDD分层结构脚手架
 
@@ -17,7 +17,3 @@
 | simple-ddd-frame-interface      | 用户接口层，controller之类         |          |
 | simple-ddd-frame-starter        | 启动层                             |          |
 
-## 使用方式
-    1. 克隆项目到本地
-    2. 进入到archetype目录，执行mvn install
-    3. idea中使用方式参考公众号文章
