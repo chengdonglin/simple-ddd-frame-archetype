@@ -20,4 +20,4 @@
 ## 使用方式
     1. 克隆项目到本地
     2. 进入到archetype目录，执行mvn install
-    3. idea中使用方式参考公众号文章
+    3. idea中使用方式参考公众号文章 https://mp.weixin.qq.com/s/iK7_SX_A5Z8HgjdQ_hlkvw
